@@ -18,7 +18,7 @@ void check() {
 
 	// 가로방향 체크
 	for (int i = 0; i < N; i++) {
-		max_count = 1;
+		max_count = 1; 
 		for (int j = 1; j < N; j++) {
 			if (arr[i][j - 1] == arr[i][j]) {
 				++max_count;
